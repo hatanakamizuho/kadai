@@ -4,42 +4,38 @@
 <head>
   <title>課題　自己紹介</title>
   <style>
-    h1 { font-size: 60px;color: darkGreen; }
-　　.font-1 {font-family: serif;}
-.font-1 {font-family: sans-serif;}
-
-    .weight-1 {font-weight: normal;}
-
-    .weight-1 {font-weight: bold;}
+   h1 {font-size: 50px;font-weight: normal;color: darkgreen;}
+    a {background-color: rgb(255, 200, 200);}
+    .hello {border: 1px solid black;margin: 40px;padding:60px;}
+    .box {width: 60px;height: 120px;}
+    .color-1 { background-color: rgb(200, 255, 200);}
+    .color-2 {background-color: rgb(200, 200, 255);}
+    @keyframes animation-test {0% {left: 0px;background-color: rgb(200, 255, 200);}
+        100% {left:559px;background-color: r;rgb(0, 0, 0)}}
+    .animation {position: absolute;animation: animation-test;animation-duration: 3s;}
 
     .border-1 {border: 5px solid black; padding: 15px;}
 
     .border-2 {border: 8px dashed red;padding: 40px;margin: 20px;}
-  </style>
+
+</style>
 </head>
-
 <body>
-  <h1>自己紹介</h1>
+    <h1>自己紹介</h1>
+    <p class="hello">こんにちは。畑中です</p>
+    
 
-  <p>こんにちは畑中瑞穂です</p>
+    <p class="box color-1">こんにちは</p>
+    <p class="box color-2">さようなら</p>
+    <p class="box color-1 animation">アニメーションのテストです。</p>
 
-  <h2>文学部です</h2>
 
-  <p>こんにちは</p>
-  <ul>
-    <li>こんにちは</li>
-    <li>こんにちは</li>
-    <li>こんにちは</li>
-  </ul>
 
-  <p class="font-1">こんにちは</p>
-  <p class="font-2">こんにちは</p>
 
-  <p class="weight-1">こんにちは</p>
-  <p class="weight-2">こんにちは</p>
 
-  <div class="border-1">こんにちは</div>
-  <div class="border-2">こんばんは</div>
+
+ <div class="border-1">こんにちは</div>
+ <div class="border-2">こんばんは</div>
+
 </body>
-
 </html>
