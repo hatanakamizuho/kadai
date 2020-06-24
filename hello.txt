@@ -1,2 +1,0 @@
-$ rm hello.txt
-$ ls
